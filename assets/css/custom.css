@@ -119,7 +119,7 @@ figure.snip1139 .author h5 span {
 	-webkit-box-orient: vertical;
 }
 .card img{
-	height: 130px;
+	height: 150px;
 	object-fit: cover;
 }
 .card p{
@@ -127,6 +127,19 @@ figure.snip1139 .author h5 span {
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
+}
+.post-title{
+  font-weight:600;
+  justify-content: center;
+}
+.post-image img{
+width:100%;
+object-fit: cover;
+}
+.post-description img{
+  width:100%;
+  object-fit: cover;
+  margin-left: 0px;
 }
 
 
