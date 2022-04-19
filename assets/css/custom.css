@@ -119,13 +119,13 @@ figure.snip1139 .author h5 span {
 	-webkit-box-orient: vertical;
 }
 .card img{
-	height: 150px;
+	height: 190px;
 	object-fit: cover;
 }
 .card p{
 	overflow: hidden;
 	display: -webkit-box;
-	-webkit-line-clamp: 3;
+	-webkit-line-clamp: 4;
 	-webkit-box-orient: vertical;
 }
 .post-title{
@@ -134,6 +134,7 @@ figure.snip1139 .author h5 span {
 }
 .post-image img{
 width:100%;
+height: calc(100vh - 200px);
 object-fit: cover;
 }
 .post-description img{
@@ -141,5 +142,39 @@ object-fit: cover;
   object-fit: cover;
   margin-left: 0px;
 }
+ /* team css */
+ .member {
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%) !important;
+  opacity: 1 !important;
+}
+.member .member-info-content {
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%) !important;
+  bottom: 0px !important;
+  padding: 30px;
+}
+.member .social {
+  left: 0 !important;
+}
+.member .member-info {
+  background: unset !important;
+  opacity: 1 !important;
+}
+.member img {
+  object-fit: cover;
+}
+.nav-menu .drop-down ul {
+  display: none;
+}
 
-
+.nav-menu .drop-down:hover ul {
+  display: block;
+}
+p{
+  text-align: justify;
+}
+.section-title p{
+  text-align: center;
+}
+#footer .footer-newsletter p{
+text-align: center ;
+}
