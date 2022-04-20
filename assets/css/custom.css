@@ -178,3 +178,10 @@ p{
 #footer .footer-newsletter p{
 text-align: center ;
 }
+
+.post-text-color{
+  color: #016141;
+}
+.post-text-color a :hover{
+  color:#6ab89e
+}
