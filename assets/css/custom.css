@@ -150,7 +150,7 @@ object-fit: cover;
 .member .member-info-content {
   background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%) !important;
   bottom: 0px !important;
-  padding: 30px;
+  padding: 10px;
 }
 .member .social {
   left: 0 !important;
@@ -192,3 +192,18 @@ text-align: center ;
   font-weight: 600;
   text-align: center;
 }
+.cimage{
+  height: 180px !important;
+  object-fit: contain;
+}
+.des a{
+  color:#000000;
+}
+.des a:hover{
+  color:#016141;
+}
+/* .card .partn p{
+	overflow: hidden !important;
+	display: -webkit-box !important;
+	-webkit-line-clamp: 20 !important;
+	-webkit-box-orient: vertical !important;} */
