@@ -207,3 +207,11 @@ text-align: center ;
 	display: -webkit-box !important;
 	-webkit-line-clamp: 20 !important;
 	-webkit-box-orient: vertical !important;} */
+.screenshot img{
+  width: 210px !important;
+  height: 270px !important;
+  object-fit: contain;
+}
+.success-story{
+  object-fit: cover;
+}
