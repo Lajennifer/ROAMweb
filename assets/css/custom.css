@@ -215,3 +215,23 @@ text-align: center ;
 .success-story{
   object-fit: cover;
 }
+.post-list {
+  margin-left: 50%;
+}
+
+@media (max-width: 768px) {
+  .post-list {
+    margin-left: 0;
+  }
+}
+
+  @media (max-width: 768px) {
+    .article-photo{
+      height: 300px !important;
+    }
+  }
+  @media (min-width: 1400px) {
+    .article-photo{
+      height: 50% !important;
+    }
+  }
